@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 7px 7px 33px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  min-height: 180px;
+  min-width: 300px;
+  max-width: 300px;
+  padding: 20px;
+  border-radius: 12px;
+  overflow-wrap: break-word;
+}
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid goldenrod;
+  border-radius: 5px;
+  width: 180px;
+}
+button[type="button"] {
+  padding: 10px;
+  background-color: goldenrod;
+  color: white;
+  border: none;
+  width: 60px;
+  border-radius: 4px;
+  cursor: pointer;
+  gap: 10px;
+}
+.add-center {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+#list-data {
+  margin-top: 10px;
+}
+.task-item {
+  padding: 10px;
+  background-color: Fuchsia;
+  color: white;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 2px solid pink; /* Add a pink border */
+  overflow-wrap: break-word;
+}
+body {
+  background-color: #f0f0f0;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Your existing styles remain unchanged */
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.input-container label {
+  flex-shrink: 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#list-data {
+  margin-top: 20px;
+}
+
+h4 {
+  background-color: goldenrod;
+  color: rgb(0, 0, 0);
+  border: none;
+  width: 265px;
+  border-radius: 4px;
+  margin-top: 30px; /* Add margin to create space between tasks and name */
+  text-align: center;
+}
